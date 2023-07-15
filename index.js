@@ -234,7 +234,7 @@ const voicemeeter = {
 }
 
 // Create setter function
-const stripParametersNames = ["mono", "solo", "mute", "gain", "gate", "comp"];
+const stripParametersNames = ["mono", "solo", "mute", "gain", "gate", "comp", "A1", "A2", "A3", "B1", "B2"];
 const busesParametersNames = ["mono", "mute", "gain"];
 
 busesParametersNames.forEach((name) => {
